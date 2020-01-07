@@ -20,11 +20,8 @@ sum = 0
 for i in range(34):
     num = Fibonacci(i)
     if num > 4000000:
-        print("over 4 mil")
         break
     if num % 2 == 0:
-        print("Even!")
         sum += num
-    print("num is %i" % (num))
-    print("sum is %i" % (sum))
     
+print("sum is %i" % (sum))
